@@ -52,15 +52,32 @@ flowchart LR
     H --> I[Stakeholders receive Gmail notifications]
     I --> J[End Users access the deployed application]
 
-    %% Snake pattern for zig-zag effect
-    B -.-> C
-    C -.-> D
-    D -.-> E
-    E -.-> F
-    F -.-> G
-    G -.-> H
-    H -.-> I
-    I -.-> J
+    %% Snake-style layout using subgraphs for visual separation
+    subgraph step1
+        B --> C
+    end
+    subgraph step2
+        C --> D
+    end
+    subgraph step3
+        D --> E
+    end
+    subgraph step4
+        E --> F
+    end
+    subgraph step5
+        F --> G
+    end
+    subgraph step6
+        G --> H
+    end
+    subgraph step7
+        H --> I
+    end
+    subgraph step8
+        I --> J
+    end
+
 
 🔹 Features
 
