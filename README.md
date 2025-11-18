@@ -60,7 +60,9 @@ flowchart TB
     H --> I[Stakeholders receive Gmail notifications]
     I --> J[End Users access the deployed application]
 
+
 =====================================
+
 🔹 Features
 
 Fully automated CI/CD pipeline
