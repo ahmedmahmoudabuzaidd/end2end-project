@@ -1,4 +1,4 @@
-![End-to-End DevOps Project Banner](./9105d737-4bb6-4884-87b3-4b6bfb741ffd.png)
+![End-to-End DevOps Project Banner](./obj/end to end project.png)
 
 # End-to-End DevOps Project 🚀
 
