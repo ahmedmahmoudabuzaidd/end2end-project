@@ -1,4 +1,5 @@
-![End-to-End DevOps Project Banner](./obj/end to end project.png)
+<!-- Banner Image at the top -->
+![End-to-End DevOps Project Banner](./obj/end-to-end-project.png)
 
 # End-to-End DevOps Project 🚀
 
@@ -34,27 +35,3 @@ This project implements an end-to-end workflow:
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white&style=for-the-badge)
 ![Trivy](https://img.shields.io/badge/Trivy-3EAAAF?style=for-the-badge)
 ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?logo=sonarqube&logoColor=white&style=for-the-badge)
-![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)
-
----
-
-## 📊 Workflow Diagram
-
-![End-to-End DevOps Workflow](./9105d737-4bb6-4884-87b3-4b6bfb741ffd.png)
-
----
-
-## 🔹 Features
-
-- Fully automated **CI/CD pipeline**
-- Code quality checks with **SonarQube**
-- Containerization using **Docker**
-- Vulnerability scanning with **Trivy**
-- Deployment on **Kubernetes**
-- Monitoring and visualization with **Prometheus + Grafana**
-- Notifications to developers and stakeholders via **Gmail**
-
----
-
-## 📂 Project Structure
-
