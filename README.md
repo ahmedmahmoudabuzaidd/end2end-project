@@ -64,19 +64,20 @@ flowchart TB
 
 🔹 Features
 
-Fully automated CI/CD pipeline
+    - Fully automated CI/CD pipeline
 
-Code quality checks with SonarQube
+    - Code quality checks with SonarQube
 
-Containerization using Docker
+    - Containerization using Docker
 
-Vulnerability scanning with Trivy
+    - Vulnerability scanning with Trivy
 
-Deployment on Kubernetes
+    - Deployment on Kubernetes
 
-Monitoring and visualization with Prometheus + Grafana
+    - Monitoring and visualization with Prometheus + Grafana
 
-Notifications to developers and stakeholders via Gmail
+    - Notifications to developers and stakeholders via Gmail
+📂 Project Structure
 
 ├── backend/                  # Backend application code
 
