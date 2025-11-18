@@ -1,5 +1,5 @@
 <!-- Banner Image at the very top -->
-![End-to-End DevOps Project Banner](./9105d737-4bb6-4884-87b3-4b6bfb741ffd.png)
+![End-to-End DevOps Project Banner](./obj/endtoendproject.PNG)
 
 # End-to-End DevOps Project 🚀
 
@@ -52,32 +52,31 @@ flowchart LR
     H --> I[Stakeholders receive Gmail notifications]
     I --> J[End Users access the deployed application]
 
-    %% Snake-style layout using subgraphs for visual separation
-    subgraph step1
+    %% Optional snake-like visual separation using subgraphs
+    subgraph S1
         B --> C
     end
-    subgraph step2
+    subgraph S2
         C --> D
     end
-    subgraph step3
+    subgraph S3
         D --> E
     end
-    subgraph step4
+    subgraph S4
         E --> F
     end
-    subgraph step5
+    subgraph S5
         F --> G
     end
-    subgraph step6
+    subgraph S6
         G --> H
     end
-    subgraph step7
+    subgraph S7
         H --> I
     end
-    subgraph step8
+    subgraph S8
         I --> J
     end
-
 
 🔹 Features
 
