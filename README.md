@@ -59,3 +59,20 @@ flowchart TB
     G --> H[Grafana visualizes metrics]
     H --> I[Stakeholders receive Gmail notifications]
     I --> J[End Users access the deployed application]
+
+=====================================
+🔹 Features
+
+Fully automated CI/CD pipeline
+
+Code quality checks with SonarQube
+
+Containerization using Docker
+
+Vulnerability scanning with Trivy
+
+Deployment on Kubernetes
+
+Monitoring and visualization with Prometheus + Grafana
+
+Notifications to developers and stakeholders via Gmail
