@@ -40,7 +40,6 @@ This project implements an end-to-end workflow:
 
 ## 📊 Workflow Diagram
 
-![End-to-End DevOps Workflow](./9105d737-4bb6-4884-87b3-4b6bfb741ffd.png)
 
 **Workflow Steps:**
 
