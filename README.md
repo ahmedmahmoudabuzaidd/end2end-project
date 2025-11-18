@@ -26,10 +26,13 @@ This project implements an end-to-end workflow:
 
 ## 🛠 Tech Stack & Tools
 
+**Development & CI/CD:**  
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?logo=jenkins&logoColor=white&style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=for-the-badge)
+
+**Monitoring & Security:**  
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white&style=for-the-badge)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white&style=for-the-badge)
 ![Trivy](https://img.shields.io/badge/Trivy-3EAAAF?style=for-the-badge)
@@ -41,14 +44,18 @@ This project implements an end-to-end workflow:
 ## 📊 Workflow Diagram
 
 ```mermaid
-flowchart LR
+flowchart TB
+    %% Row 1
     A[Developer pushes code to GitHub] --> B[Jenkins builds & tests code]
     B --> C[SonarQube analyzes code quality]
     C --> D[Docker containerizes application]
+    
+    %% Row 2
     D --> E[Trivy scans for vulnerabilities]
     E --> F[Kubernetes deploys application]
     F --> G[Prometheus collects metrics]
+    
+    %% Row 3
     G --> H[Grafana visualizes metrics]
     H --> I[Stakeholders receive Gmail notifications]
     I --> J[End Users access the deployed application]
-
