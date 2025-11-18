@@ -79,12 +79,20 @@ Monitoring and visualization with Prometheus + Grafana
 Notifications to developers and stakeholders via Gmail
 
 ├── backend/                  # Backend application code
+
 ├── frontend/                 # Frontend application code
+
 ├── database/                 # Database scripts/config
+
 ├── k8s/                      # Kubernetes deployment manifests
+
 ├── docker/                   # Dockerfiles for all services
+
 ├── monitoring/               # Prometheus & Grafana configs
+
 ├── scripts/                  # Automation & backup scripts
+
 ├── README.md                 # Project documentation
+
 └── obj/                      # Images (banner, workflow diagrams)
 
