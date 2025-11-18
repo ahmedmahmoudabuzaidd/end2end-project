@@ -1,5 +1,5 @@
 <!-- Banner Image at the top -->
-![End-to-End DevOps Project Banner](./obj/end-to-end-project.png)
+![End-to-End DevOps Project Banner](./obj/endtoendproject.png)
 
 # End-to-End DevOps Project 🚀
 
