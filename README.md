@@ -40,11 +40,8 @@ This project implements an end-to-end workflow:
 
 ## 📊 Workflow Diagram
 
-
-**Workflow Steps:**
-
 ```mermaid
-flowchart TD
+flowchart LR
     A[Developer pushes code to GitHub] --> B[Jenkins builds & tests code]
     B --> C[SonarQube analyzes code quality]
     C --> D[Docker containerizes application]
@@ -54,3 +51,48 @@ flowchart TD
     G --> H[Grafana visualizes metrics]
     H --> I[Stakeholders receive Gmail notifications]
     I --> J[End Users access the deployed application]
+
+    %% Snake pattern for zig-zag effect
+    B -.-> C
+    C -.-> D
+    D -.-> E
+    E -.-> F
+    F -.-> G
+    G -.-> H
+    H -.-> I
+    I -.-> J
+
+🔹 Features
+
+Fully automated CI/CD pipeline
+
+Code quality checks with SonarQube
+
+Containerization using Docker
+
+Vulnerability scanning with Trivy
+
+Deployment on Kubernetes
+
+Monitoring and visualization with Prometheus + Grafana
+
+Notifications to developers and stakeholders via Gmail
+
+📂 Project Structure
+├── backend/                  # Backend application code
+
+├── frontend/                 # Frontend application code
+
+├── database/                 # Database scripts/config
+
+├── k8s/                      # Kubernetes deployment manifests
+
+├── docker/                   # Dockerfiles for all services
+
+├── monitoring/               # Prometheus & Grafana configs
+
+├── scripts/                  # Automation & backup scripts
+
+├── README.md                 # Project documentation
+
+└── obj/          
