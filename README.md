@@ -77,6 +77,7 @@ flowchart LR
     subgraph S8
         I --> J
     end
+---
 
 🔹 Features
 
@@ -93,6 +94,8 @@ Deployment on Kubernetes
 Monitoring and visualization with Prometheus + Grafana
 
 Notifications to developers and stakeholders via Gmail
+
+---
 
 📂 Project Structure
 ├── backend/                  # Backend application code
